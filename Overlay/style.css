@@ -1,0 +1,30 @@
+/*BEGIN PS3 Controller Styling*/
+.controller.ps {
+    background: url(basemod.png);
+    height: 558px;
+    width: 784px;
+    /*    margin-left: -392px;
+        margin-top: -259px;*/
+}
+
+.ps .sticks {
+    position: absolute;
+    width: 364px;
+    height: 105px;
+    top: 328px;
+    left: 210px;
+}
+
+.ps .stick {
+    position: absolute;
+    background: url(ps3-assets/thumbs.png);
+    height: 105px;
+    width: 105px;
+}
+
+.ps .stick.right {
+    top: calc(100% - 105px);
+    left: calc(100% - 105px);
+}
+
+/*END PS3 Controller Styling*/
